@@ -1,14 +1,9 @@
 from gettext import install
 import pip
 
-import matplotlib.pyplot as pltimport ;pip
-pip 
-install
-matplotlib
-
-import matplotlib
-import numpy as np ; pip
-
+import matplotlib.pyplot as plt
+import matplotlib as mpl
+import numpy as np
 
 # Simulation parameters
 planet_radius = 1.5  # Relative radius compared to Earth
@@ -27,7 +22,6 @@ other_gases_ratio = 0.05
 ocean_sulfur_concentration = 0.3  # Concentration of sulfur compounds in the ocean
 ocean_iron_concentration = 0.15   # Concentration of iron compounds
 ocean_acidity = 0.2  # Relative acidity of the water
-
 # Create figure
 fig, ax = plt.subplots(figsize=(8, 8))
 
