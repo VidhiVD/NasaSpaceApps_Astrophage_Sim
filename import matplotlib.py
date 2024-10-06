@@ -66,6 +66,18 @@ ax.set_ylim(-planet_radius - atmosphere_thickness, planet_radius + atmosphere_th
 ax.set_aspect('equal')
 ax.axis('off')  # Hide axis for better visualization
 
-# Display the plot
+# Display the plot &
 plt.show()
-
+print ("water vapor ratio " + water_vapor_ratio)
+print (" sulfur dioxide ratio " + sulfur_dioxide_ratio)
+print ("hydrogen sulfide ratio " + hydrogen_sulfide_ratio)
+print("carbon dioxide ratio " + carbon_dioxide_ratio)
+print ("sulfuric acid ration " + sulfuric_acid_ratio)
+print("other gases ation " + other_gases_ratio)
+print ("ocean sulfur concentration " + ocean_sulfur_concentration)
+print("ocean iron concentration " + ocean_iron_concentration)
+print("ocean acidity " + ocean_acidity)
+print("atmosphere thickness " + atmosphere_thickness)
+print ("ocean depth " + ocean_depth)
+print (" planet radius " + planet_radius)
+print ("atmoshpere thickness "+ atmosphere_thickness)
